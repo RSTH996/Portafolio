@@ -28,11 +28,21 @@ import { Creaciones } from "../Informacion/Páginas.js";
     grid-column: 2;
     background-color: rgb(231, 231, 231);
     width: 120%;
-    margin-left: -100%;
+    margin-left: 0%;    
+    border-radius: 1cm;
 }
 
 .Projectos img {
-    padding-bottom: 3%;
+    padding-bottom: 3%;    
+    transition: 1s;
+}
+
+.Projectos img:hover {      
+    width: 700px;
+    height: 650px;  
+    display: flex;
+    margin: 0%;    
+    transition: 1s;
 }
 
 .Projectos a {
@@ -45,5 +55,6 @@ import { Creaciones } from "../Informacion/Páginas.js";
     height: 50px;
     background-color: rgb(228, 225, 78);
     border-color: rgb(228, 225, 78);
+    border-radius: 10cm;
 }
 </style>

@@ -10,15 +10,16 @@ export const Datos = [
     },]
 
 export const Habilidades = [
-    {L:"HTML", N: false},
-    {L:"CSS", N: false},            
-    {L:"JavaScript", N: false},
-    {L:"REACTjs", N: false},
+    {L:"Conocimiento", N: false},    
+    {L:"HTML", N: true},
+    {L:"CSS", N: true},            
+    {L:"JavaScript", N: true},
+    {L:"REACTjs", N: true},
     {L:"Angular.cli", N: true},
-    {L:"Boostrap", N: false},
-    {L:"Tailwindcss", N: false}, 
-    {L:"NodeJS", N: false},
-    {L:"GitBash", N: false},
+    {L:"Boostrap", N: true},
+    {L:"Tailwindcss", N: true}, 
+    {L:"NodeJS", N: true},
+    {L:"GitBash", N: true},
 ]
 
 /*
